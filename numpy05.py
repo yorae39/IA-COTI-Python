@@ -91,6 +91,43 @@ a[1] + a[2]
 a[1] - a[2]
 
 
+# GERANDO ARRAYS
+np.arange(1, 100, 2)
+
+
+# lin spaces
+np.linspace(2.0, 3.0, 10)
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
