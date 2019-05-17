@@ -156,14 +156,14 @@ eixo = ts.plot()
 modelo_treinado.plot_predict('1960-01-01', '1962-01-01',
                              ax = eixo, plot_insample = True)
 
-# INSATALAR O PACOTE pyramid
+# INSTALAR O PACOTE pyramid
 # pip install pyramid
 from pmdarima import auto_arima
 
 model = auto_arima(previsoes, trace= True, start_p=0, start_q=0, start_P=0, 
                    start_Q=0, max_p=10, max_q=10, seasonal = True, 
                    stepwise=False, suppress_warnings=True,
-                   D = 1, max_D=10, error_action='ignore',
+                   D=1, max_D=10, error_action='ignore',
                    aproximation = False)
 
 
