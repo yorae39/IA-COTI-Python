@@ -99,7 +99,7 @@ sorted(distancias, key=distancias.get)[:5]
 
 
 def knn2(treinamento, nova_amostra, k):
-    # calcular a distanacia
+    # calcular a distancia
     dists, tam_treino = {}, len(treinamento)
     for i in range(tam_treino):
         d = dist_euclidiana_np(treinamento[i], nova_amostra)
@@ -120,7 +120,7 @@ def knn2(treinamento, nova_amostra, k):
 
 
 
-# FUNÇÃO PARA ENCONTRA O NUMERO DE VIZINHOS
+# FUNÇÃO PARA ENCONTRAR O NUMERO DE VIZINHOS
 def k_n_vizinhos(treinamento):
     n = len(treinamento)
     k = int(math.sqrt(n))
