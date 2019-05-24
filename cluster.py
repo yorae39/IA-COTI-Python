@@ -38,16 +38,25 @@ resultados
 
 
 
+# VISUALIZAÇÃO DE GRÁFICOS
+plt.scatter(iris.data [previsoes == 0, 0],
+            iris.data[previsoes == 0, 1],
+            c = 'green', label = 'Setosa')
 
 
 
+plt.scatter(iris.data [previsoes == 1, 0],
+            iris.data[previsoes == 1, 1],
+            c = 'red', label = 'Versicolor')
 
 
 
+plt.scatter(iris.data [previsoes == 2, 0],
+            iris.data[previsoes == 2, 1],
+            c = 'blue', label = 'Virginica')
 
 
-
-
+plt.legend()
 
 
 
